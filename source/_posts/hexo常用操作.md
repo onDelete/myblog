@@ -59,3 +59,8 @@ npm管理工具的使用：
 `hexo cl`
 * **列出博客文件树**
 `hexo list route`
+
+## 补充
+1.安装nodejs和npm的时候，最好使用源码包安装，ubuntu源中的安装包一般版本较旧，安装好之后可以使用npm淘宝镜像，在npmrc文件中加入`registry=https://registry.npm.taobao.org`
+2.重新安装的时候要记得安装部署插件**hexo-deployer-git**(因为我是部署在github上的)。
+3.安装hexo时，请使用超级用户权限，否则无法正确写入文件，要是在安装无法完成请先使用`npm cache clean`清理npm缓存。
