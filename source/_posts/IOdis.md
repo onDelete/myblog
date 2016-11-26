@@ -1,7 +1,7 @@
 ---
-title: linux中的重定向
-date: 2016-10-31 22:00:28
-tags:
+title: I/O重定向
+date: 2016-11-21 23:28:19
+tags: IO
 categories: linux
 ---
 ### I/O重定向

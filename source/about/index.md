@@ -1,14 +1,8 @@
 ---
-title: about
+title: 我想说
 date: 2016-10-04 19:11:31
 comments: false
 ---
-<img src="../imgs/flower.jpeg" width="600" height="450"/>
-### **哪辆马车，载你而去，奔向远方**
+<iframe frameborder="no" border="0" marginwidth="0" marginheight="0" width=330 height=86 src="http://music.163.com/outchain/player?type=2&id=1934649&auto=0&height=66"></iframe>
 
-### **奔向远方，你去而不返，是哪辆马车**
-
-- - -
-** 你说：“如果有一天你有勇气，我想，那时，我已走远。” **
-** 我想是的。 **
-
+>"Straight ahead of him,nobody can go very far..."

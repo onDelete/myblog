@@ -79,9 +79,10 @@
     padding: 10px 0
   blockquote
     font-family: font-serif
-    font-size: 1.4em
-    margin: line-height 20px
-    text-align: center
+    margin: line-height 0
+    padding: 0 0.8em;
+    border-left:4px solid #DDD
+    color: #777
     footer
       font-size: font-size
       margin: line-height 0
@@ -140,7 +141,7 @@
   clearfix()
   font-size: 0.85em
   line-height: line-height
-  border-top: 1px solid color-border
+  border-top: 2px solid color-border
   padding-top: line-height
   margin: 0 article-padding article-padding
   a
@@ -256,12 +257,13 @@
 
 $article-share-link
   width: 50px
-  height: 36px
+  height: 50px
   display: block
   float: left
   position: relative
   color: #999
   text-shadow: 0 1px #fff
+  cursor: pointer;
   &:before
     font-size: 20px
     font-family: font-icon
@@ -269,6 +271,46 @@ $article-share-link
     text-align: center
   &:hover
     color: #fff
+
+.article-share-weibo
+  @extend $article-share-link
+  &:before
+    content: "\f18a"
+  &:hover
+    background: color-weibo
+    text-shadow: 0 1px darken(color-weibo, 20%)
+
+.article-share-weixin
+  @extend $article-share-link
+  &:before
+    content: "\f1d7"
+  &:hover
+    background: color-weixin
+    text-shadow: 0 1px darken(color-weixin, 20%)
+
+.article-share-qq
+  @extend $article-share-link
+  &:before
+    content: "\f1d6"
+  &:hover
+    background: color-qq
+    text-shadow: 0 1px darken(color-qq, 20%)
+
+.article-share-renren
+  @extend $article-share-link
+  &:before
+    content: "\f18b"
+  &:hover
+    background: color-renren
+    text-shadow: 0 1px darken(color-renren, 20%)
+
+.article-share-more
+  @extend $article-share-link
+  &:before
+    content: "\f067"
+  &:hover
+    background: color-more
+    text-shadow: 0 1px darken(color-more, 20%)
 
 .article-share-twitter
   @extend $article-share-link
