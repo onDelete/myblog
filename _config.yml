@@ -72,3 +72,14 @@ deploy:
   repository: git@github.com:onDelete/ondelete.github.io.git
   type: git
   branch: master
+
+# encrypt
+encrypt:
+#pwdfile: SW0521     # this store the password in a file, the whole content of this file will be regarded as the password
+  password: SW0521 # this set password here
+  replace_all_url: true # this will replace img url in all posts
+  base_url: http://you img base url/    # this will connect with you img url in you post, except full url(start with http://)
+  qiniu_ak: your qiniu access key 
+  qiniu_sk: your qiniu secrect key 
+  img_url_ttl: 3600  # 3600 second, the ttl for qiniu img url
+  type: base64 # or base64, if base64, the base_url, qiniu_ak, qiniu_sk and img_url_ttl is unnecessary

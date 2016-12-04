@@ -6,7 +6,7 @@
 favicon: /favicon.ico
 
 # Set default keywords (Use a comma to separate)
-keywords: southwe,java,github_pages,hexo,linux
+keywords: southwe,java,github_pages,hexo,linux,代码收藏家
 
 # Set rss to false to disable feed link.
 # Leave rss as empty to use site's feed link.
@@ -123,8 +123,9 @@ font:
 # Value is the target link (E.g. GitHub: https://github.com/iissnan)
 social:
   GitHub: https://github.com/onDelete
-  xman150154@gmail.com: #
-  #LinkLabel: Link
+  WeiBo: http://weibo.com/u/6074743462?topnav=1&wvr=6&topsug=1&is_all=1
+#xman150154@gmail.com: #
+#LinkLabel: Link
 
 
 # Social Links Icons
@@ -137,8 +138,9 @@ social_icons:
   # Icon Mappings.
   # KeyMapsToSocalItemKey: NameOfTheIconFromFontAwesome
   GitHub: GitHub
-  xman150154@gmail.com: google-plus
-  #Twitter: twitter
+  WeiBo: weibo
+#xman150154@gmail.com: google-plus
+##Twitter: twitter
 
 # Sidebar Avatar
 # in theme directory(source/images): /images/avatar.jpg
